@@ -1,0 +1,132 @@
+/* html {
+    margin: 0;
+    padding: 0;
+} */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Aldrich';
+}
+
+ul {
+    list-style-type: none;
+    background-color: #ffffff;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a{
+    display: block;
+    padding: 12px 16px;
+    color: black;
+    text-decoration: none;
+    font-family: 'Aldrich';
+    transition: 0.5s;
+    font-weight: bold;
+}
+
+li a:hover {
+    background-color: #858585;
+    border:1px;
+    border-radius:10px;
+    transition: 0.5s;
+}
+
+.image-owner {
+    margin: auto;
+    width:450px;
+    z-index: 10;
+    padding-top: 100px;
+    /* background-color: blue; */
+    text-align: center;
+}
+
+.image-owner img {
+    border-radius: 50%;
+    width:300px;
+    height:300px;
+}
+
+.short-link {
+    margin: auto;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(75, 157, 168);
+}
+
+.short-link a {
+    text-decoration: none;
+}
+.short-link img {
+    width: 30px;
+    height: 30px;
+    padding-left:10px;
+}
+
+
+#profile {
+    padding-top: 100px;
+    margin: auto;
+    text-align:center;
+    font-size: 30px;
+    width: 450px;
+    color: rgb(75, 157, 168);
+}
+
+.description {
+    margin: auto;
+    text-align: center;
+    line-height: 40px;
+}
+
+#portofolio {
+    padding-top:100px;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(75, 157, 168);
+}
+
+.projects {
+    margin:auto;
+    text-align: center;
+    /* background: blue; */
+}
+
+.projects img{
+    width:200px; 
+    height:100px;
+    margin-top: 100px;
+    padding-left:100px;
+
+}
+
+#contact {
+    padding-top:200px;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(75, 157, 168);
+}
+
+.contact-list{
+    margin: auto;
+    padding-top:60px;
+    font-size: 30px;
+    text-align:center;
+}
+
+.contact-list img {
+    width: 30px;
+    height: 30px;
+    padding-left:10px;
+    text-align: left;
+}
